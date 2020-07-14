@@ -16,7 +16,7 @@ const GameOverScreen = (props) => {
         Oppenents Try :{props.attempts}
       </Text>
       <Text style={{ marginVertical: 15, marginLeft: 35 }}>
-        Your Number: {props.userNum}
+        Your Number was: {props.userNum}
       </Text>
 
       <Button
